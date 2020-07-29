@@ -43,13 +43,9 @@ def index():
          'icon': response['weather'][0]['icon']
       }
 
-      weather_data.append(weather)
-      
+      weather_data.append(weather)      
 
    return render_template('weather.html', weather_data=weather_data)
-
-
-
 
 
 
